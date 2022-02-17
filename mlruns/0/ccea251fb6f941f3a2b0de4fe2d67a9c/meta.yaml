@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lufec/Downloads/mlops/dostoy/mlruns/0/ccea251fb6f941f3a2b0de4fe2d67a9c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: ccea251fb6f941f3a2b0de4fe2d67a9c
+run_uuid: ccea251fb6f941f3a2b0de4fe2d67a9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1645022089539
+status: 1
+tags: []
+user_id: lufec

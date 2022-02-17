@@ -1,0 +1,28 @@
+main:
+  project_name: dostoy_selling
+  experiment_name: dev
+  execute_steps: svm
+  random_seed: 42
+data:
+  file_url: https://raw.githubusercontent.com/Lufec/Caso_Dostoy/main/Dolstoy_Profile.csv
+  reference_dataset: dostoy_selling/preprocessed_data.csv:latest
+  ks_alpha: 0.05
+  test_size: 0.3
+  val_size: 0.3
+  stratify: PrimeiraCompra
+svm_pipeline:
+  svm:
+    C: 5.0
+    kernel: sigmoid
+    gamma: auto
+    degree: 3
+    coef0: 4
+    tol: 0.01
+    shrinking: true
+    probability: false
+    cache_size: 2048
+    verbose: false
+    max_iter: -1
+  numerical_pipe:
+    model: 0
+  export_artifact: model_export

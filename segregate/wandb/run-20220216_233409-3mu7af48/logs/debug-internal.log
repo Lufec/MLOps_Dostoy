@@ -1,0 +1,187 @@
+2022-02-16 23:34:10,910 INFO    MainThread:61123 [internal.py:wandb_internal():87] W&B internal server running at pid: 61123, started at: 2022-02-16 23:34:10.909897
+2022-02-16 23:34:10,912 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: check_version
+2022-02-16 23:34:10,912 INFO    WriterThread:61123 [datastore.py:open_for_write():77] open: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/run-3mu7af48.wandb
+2022-02-16 23:34:10,913 DEBUG   SenderThread:61123 [sender.py:send():234] send: header
+2022-02-16 23:34:10,914 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: check_version
+2022-02-16 23:34:11,123 DEBUG   SenderThread:61123 [sender.py:send():234] send: run
+2022-02-16 23:34:11,970 INFO    SenderThread:61123 [dir_watcher.py:__init__():169] watching files in: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files
+2022-02-16 23:34:11,970 INFO    SenderThread:61123 [sender.py:_start_run_threads():804] run started: 3mu7af48 with start time 1645065249
+2022-02-16 23:34:11,970 DEBUG   SenderThread:61123 [sender.py:send():234] send: summary
+2022-02-16 23:34:11,971 INFO    SenderThread:61123 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-16 23:34:11,971 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: run_start
+2022-02-16 23:34:11,977 DEBUG   HandlerThread:61123 [meta.py:__init__():40] meta init
+2022-02-16 23:34:11,977 DEBUG   HandlerThread:61123 [meta.py:__init__():54] meta init done
+2022-02-16 23:34:11,978 DEBUG   HandlerThread:61123 [meta.py:probe():214] probe
+2022-02-16 23:34:11,980 DEBUG   HandlerThread:61123 [git.py:repo():33] git repository is invalid
+2022-02-16 23:34:11,980 DEBUG   HandlerThread:61123 [meta.py:_save_pip():58] save pip
+2022-02-16 23:34:11,980 DEBUG   HandlerThread:61123 [meta.py:_save_pip():72] save pip done
+2022-02-16 23:34:11,980 DEBUG   HandlerThread:61123 [meta.py:_save_conda():79] save conda
+2022-02-16 23:34:12,972 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/requirements.txt
+2022-02-16 23:34:12,973 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/wandb-summary.json
+2022-02-16 23:34:12,973 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/conda-environment.yaml
+2022-02-16 23:34:15,778 DEBUG   HandlerThread:61123 [meta.py:_save_conda():89] save conda done
+2022-02-16 23:34:15,778 DEBUG   HandlerThread:61123 [meta.py:probe():252] probe done
+2022-02-16 23:34:15,782 DEBUG   SenderThread:61123 [sender.py:send():234] send: files
+2022-02-16 23:34:15,782 INFO    SenderThread:61123 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-02-16 23:34:15,790 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 23:34:15,791 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 23:34:15,971 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/conda-environment.yaml
+2022-02-16 23:34:15,972 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/output.log
+2022-02-16 23:34:15,972 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_created():217] file/dir created: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/wandb-metadata.json
+2022-02-16 23:34:17,152 INFO    Thread-11 :61123 [upload_job.py:push():137] Uploaded file /tmp/tmpd2bwts4lwandb/19t8icdz-wandb-metadata.json
+2022-02-16 23:34:17,972 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/output.log
+2022-02-16 23:34:19,113 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: log_artifact
+2022-02-16 23:34:19,114 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: log_artifact
+2022-02-16 23:34:19,973 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/output.log
+2022-02-16 23:34:23,333 INFO    Thread-13 :61123 [upload_job.py:push():95] Uploaded file /home/lufec/.cache/wandb/artifacts/obj/md5/8c/35b8897e3714811a178f8d72066d99
+2022-02-16 23:34:25,480 INFO    SenderThread:61123 [sender.py:send_request_log_artifact():968] logged artifact train_data.csv - {'id': 'QXJ0aWZhY3Q6ODQ1MTk2ODY=', 'digest': '20d43643a63c5b9a6994b1a0f960b7a8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDM5MjM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODQ0OTE4NTk=', 'versionIndex': 0}}, 'version': 'latest'}
+2022-02-16 23:34:26,961 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: log_artifact
+2022-02-16 23:34:26,962 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: log_artifact
+2022-02-16 23:34:27,978 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/output.log
+2022-02-16 23:34:29,677 INFO    Thread-15 :61123 [upload_job.py:push():95] Uploaded file /home/lufec/.cache/wandb/artifacts/obj/md5/ff/1385d6a8ced999f71a8c863706dd3a
+2022-02-16 23:34:31,377 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: stop_status
+2022-02-16 23:34:31,626 INFO    SenderThread:61123 [sender.py:send_request_log_artifact():968] logged artifact test_data.csv - {'id': 'QXJ0aWZhY3Q6ODQ1MTk3NjE=', 'digest': 'd23fd35640a98eec96b4eaddc662ecee', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDM5MjYx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODQ0OTE5MzM=', 'versionIndex': 0}}, 'version': 'latest'}
+2022-02-16 23:34:31,626 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: stop_status
+2022-02-16 23:34:34,823 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:34,824 DEBUG   SenderThread:61123 [sender.py:send():234] send: telemetry
+2022-02-16 23:34:34,825 DEBUG   SenderThread:61123 [sender.py:send():234] send: exit
+2022-02-16 23:34:34,826 INFO    SenderThread:61123 [sender.py:send_exit():366] handling exit code: 0
+2022-02-16 23:34:34,826 INFO    SenderThread:61123 [sender.py:send_exit():368] handling runtime: 22
+2022-02-16 23:34:34,832 INFO    SenderThread:61123 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-16 23:34:34,832 INFO    SenderThread:61123 [sender.py:send_exit():374] send defer
+2022-02-16 23:34:34,833 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:34,835 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:34,836 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 0
+2022-02-16 23:34:34,837 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:34,838 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-02-16 23:34:34,838 INFO    SenderThread:61123 [sender.py:transition_state():387] send defer: 1
+2022-02-16 23:34:34,840 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:34,840 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 1
+2022-02-16 23:34:34,945 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:34,945 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:34,946 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-02-16 23:34:34,947 INFO    SenderThread:61123 [sender.py:transition_state():387] send defer: 2
+2022-02-16 23:34:34,947 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:34,947 DEBUG   SenderThread:61123 [sender.py:send():234] send: stats
+2022-02-16 23:34:34,948 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:34,948 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 2
+2022-02-16 23:34:34,948 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:34,949 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-02-16 23:34:34,949 INFO    SenderThread:61123 [sender.py:transition_state():387] send defer: 3
+2022-02-16 23:34:34,949 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:34,949 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 3
+2022-02-16 23:34:34,950 DEBUG   SenderThread:61123 [sender.py:send():234] send: summary
+2022-02-16 23:34:34,952 INFO    SenderThread:61123 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-02-16 23:34:34,953 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:34,953 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-02-16 23:34:34,953 INFO    SenderThread:61123 [sender.py:transition_state():387] send defer: 4
+2022-02-16 23:34:34,954 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:34,954 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 4
+2022-02-16 23:34:34,955 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:34,955 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-02-16 23:34:34,985 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/wandb-summary.json
+2022-02-16 23:34:34,986 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/output.log
+2022-02-16 23:34:35,050 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:35,425 INFO    SenderThread:61123 [sender.py:transition_state():387] send defer: 5
+2022-02-16 23:34:35,425 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:35,425 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:35,426 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 5
+2022-02-16 23:34:35,426 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:35,426 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-02-16 23:34:35,426 INFO    SenderThread:61123 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-16 23:34:35,527 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:35,985 INFO    Thread-8  :61123 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/config.yaml
+2022-02-16 23:34:35,986 INFO    SenderThread:61123 [dir_watcher.py:finish():313] scan: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files
+2022-02-16 23:34:35,987 INFO    SenderThread:61123 [dir_watcher.py:finish():327] scan save: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/requirements.txt requirements.txt
+2022-02-16 23:34:35,987 INFO    SenderThread:61123 [dir_watcher.py:finish():327] scan save: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/conda-environment.yaml conda-environment.yaml
+2022-02-16 23:34:35,987 INFO    SenderThread:61123 [dir_watcher.py:finish():327] scan save: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/wandb-metadata.json wandb-metadata.json
+2022-02-16 23:34:35,987 INFO    SenderThread:61123 [dir_watcher.py:finish():327] scan save: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/wandb-summary.json wandb-summary.json
+2022-02-16 23:34:35,988 INFO    SenderThread:61123 [dir_watcher.py:finish():327] scan save: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/config.yaml config.yaml
+2022-02-16 23:34:35,988 INFO    SenderThread:61123 [dir_watcher.py:finish():327] scan save: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/output.log output.log
+2022-02-16 23:34:35,993 INFO    SenderThread:61123 [sender.py:transition_state():387] send defer: 6
+2022-02-16 23:34:35,993 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:35,994 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:35,994 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 6
+2022-02-16 23:34:35,995 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:35,995 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-02-16 23:34:35,995 INFO    SenderThread:61123 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-16 23:34:36,095 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:36,095 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:36,197 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:36,197 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:36,299 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:36,300 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:36,402 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:36,402 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:36,505 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:36,506 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:36,607 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:36,607 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:36,709 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:36,709 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:36,812 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:36,813 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:36,917 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:36,918 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,023 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,023 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,125 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,125 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,227 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,228 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,329 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,330 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,431 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,431 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,533 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,533 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,637 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,637 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,739 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,739 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,842 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,843 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:37,949 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:37,950 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:38,057 INFO    Thread-16 :61123 [upload_job.py:push():137] Uploaded file /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/requirements.txt
+2022-02-16 23:34:38,057 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:38,058 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:38,078 INFO    Thread-18 :61123 [upload_job.py:push():137] Uploaded file /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/wandb-summary.json
+2022-02-16 23:34:38,081 INFO    Thread-17 :61123 [upload_job.py:push():137] Uploaded file /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/conda-environment.yaml
+2022-02-16 23:34:38,105 INFO    Thread-19 :61123 [upload_job.py:push():137] Uploaded file /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/config.yaml
+2022-02-16 23:34:38,115 INFO    Thread-20 :61123 [upload_job.py:push():137] Uploaded file /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/files/output.log
+2022-02-16 23:34:38,161 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:38,161 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:38,263 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:38,264 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:38,317 INFO    Thread-7 (_thread_body):61123 [sender.py:transition_state():387] send defer: 7
+2022-02-16 23:34:38,319 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:38,319 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 7
+2022-02-16 23:34:38,320 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:38,320 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-02-16 23:34:38,367 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:38,587 INFO    SenderThread:61123 [sender.py:transition_state():387] send defer: 8
+2022-02-16 23:34:38,587 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:38,589 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:38,589 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 8
+2022-02-16 23:34:38,589 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:38,590 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-02-16 23:34:38,590 INFO    SenderThread:61123 [sender.py:transition_state():387] send defer: 9
+2022-02-16 23:34:38,593 DEBUG   SenderThread:61123 [sender.py:send():234] send: final
+2022-02-16 23:34:38,594 DEBUG   SenderThread:61123 [sender.py:send():234] send: footer
+2022-02-16 23:34:38,594 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: defer
+2022-02-16 23:34:38,595 INFO    HandlerThread:61123 [handler.py:handle_request_defer():147] handle defer: 9
+2022-02-16 23:34:38,595 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: defer
+2022-02-16 23:34:38,596 INFO    SenderThread:61123 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-02-16 23:34:38,691 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: poll_exit
+2022-02-16 23:34:38,692 DEBUG   SenderThread:61123 [sender.py:send_request():248] send_request: poll_exit
+2022-02-16 23:34:38,692 INFO    SenderThread:61123 [file_pusher.py:join():182] waiting for file pusher
+2022-02-16 23:34:39,162 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: get_summary
+2022-02-16 23:34:39,165 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: sampled_history
+2022-02-16 23:34:39,170 DEBUG   HandlerThread:61123 [handler.py:handle_request():130] handle_request: shutdown
+2022-02-16 23:34:39,170 INFO    HandlerThread:61123 [handler.py:finish():731] shutting down handler
+2022-02-16 23:34:39,594 INFO    WriterThread:61123 [datastore.py:close():281] close: /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_233409-3mu7af48/run-3mu7af48.wandb
+2022-02-16 23:34:40,158 INFO    SenderThread:61123 [sender.py:finish():1070] shutting down sender
+2022-02-16 23:34:40,159 INFO    SenderThread:61123 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-16 23:34:40,159 INFO    SenderThread:61123 [file_pusher.py:join():182] waiting for file pusher
+2022-02-16 23:34:40,160 INFO    MainThread:61123 [internal.py:handle_exit():77] Internal process exited

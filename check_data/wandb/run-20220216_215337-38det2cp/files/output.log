@@ -1,0 +1,35 @@
+[1m================================================================================ test session starts =================================================================================
+platform linux -- Python 3.9.10, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- /home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/bin/python
+cachedir: .pytest_cache
+rootdir: /home/lufec/Downloads/mlops/dostoy/check_data
+[1mcollected 0 items / 1 error                                                                                                                                                          
+======================================================================================= ERRORS =======================================================================================
+[31m[1m___________________________________________________________________________ ERROR collecting test_data.py ____________________________________________________________________________
+[31m/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/_pytest/python.py:578: in _importtestmodule
+[31m    mod = import_path(self.fspath, mode=importmode)
+[31m/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/_pytest/pathlib.py:524: in import_path
+[31m    importlib.import_module(module_name)
+[31m/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/importlib/__init__.py:127: in import_module
+[31m    return _bootstrap._gcd_import(name[level:], package, level)
+[31m<frozen importlib._bootstrap>:1030: in _gcd_import
+[31m    ???
+[31m<frozen importlib._bootstrap>:1007: in _find_and_load
+[31m    ???
+[31m<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
+[31m    ???
+[31m<frozen importlib._bootstrap>:680: in _load_unlocked
+[31m    ???
+[31m/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:161: in exec_module
+[31m    source_stat, co = _rewrite_test(fn, self.config)
+[31m/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:354: in _rewrite_test
+[31m    tree = ast.parse(source, filename=fn_)
+[31m/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/ast.py:50: in parse
+[31m    return compile(source, filename, mode, flags,
+[31mE     File "/home/lufec/Downloads/mlops/dostoy/check_data/test_data.py", line 93
+[31mE       "Sexo": (1,2),
+[31mE       ^
+[31mE   SyntaxError: invalid syntax
+============================================================================== short test summary info ===============================================================================
+ERROR test_data.py
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[31m================================================================================== [1m1 error[22m in 0.19s ==================================================================================

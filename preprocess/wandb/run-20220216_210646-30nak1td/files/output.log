@@ -1,0 +1,18 @@
+
+16-02-2022 21:06:49 Downloading artifact
+16-02-2022 21:06:51 Dropping ClienteNo
+16-02-2022 21:06:51 Correct NivelGerencial
+16-02-2022 21:06:51 Binarize PrimeiraCompra
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2305, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "58,36"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/lufec/Downloads/mlops/dostoy/preprocess/run.py", line 108, in <module>
+    process_args(ARGS)
+  File "/home/lufec/Downloads/mlops/dostoy/preprocess/run.py", line 51, in process_args
+    df['PrimeiraCompra'] = pd.to_numeric(df['PrimeiraCompra'])
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/core/tools/numeric.py", line 183, in to_numeric
+    values, _ = lib.maybe_convert_numeric(
+  File "pandas/_libs/lib.pyx", line 2347, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "58,36" at position 0

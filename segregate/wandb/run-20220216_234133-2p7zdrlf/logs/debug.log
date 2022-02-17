@@ -1,0 +1,292 @@
+2022-02-16 23:41:33,308 INFO    MainThread:62100 [wandb_setup.py:_flush():71] setting env: {'run_group': 'dev', 'project': 'dostoy_selling'}
+2022-02-16 23:41:33,309 INFO    MainThread:62100 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-02-16 23:41:33,309 INFO    MainThread:62100 [wandb_init.py:_log_setup():371] Logging user logs to /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_234133-2p7zdrlf/logs/debug.log
+2022-02-16 23:41:33,310 INFO    MainThread:62100 [wandb_init.py:_log_setup():372] Logging internal logs to /home/lufec/Downloads/mlops/dostoy/segregate/wandb/run-20220216_234133-2p7zdrlf/logs/debug-internal.log
+2022-02-16 23:41:33,310 INFO    MainThread:62100 [wandb_init.py:init():404] calling init triggers
+2022-02-16 23:41:33,310 INFO    MainThread:62100 [wandb_init.py:init():409] wandb.init called with sweep_config: {}
+config: {}
+2022-02-16 23:41:33,311 INFO    MainThread:62100 [wandb_init.py:init():460] starting backend
+2022-02-16 23:41:33,311 INFO    MainThread:62100 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-16 23:41:33,329 INFO    MainThread:62100 [backend.py:ensure_launched():216] starting backend process...
+2022-02-16 23:41:33,333 INFO    MainThread:62100 [backend.py:ensure_launched():221] started backend process with pid: 62121
+2022-02-16 23:41:33,333 INFO    MainThread:62100 [wandb_init.py:init():469] backend started and connected
+2022-02-16 23:41:33,335 INFO    MainThread:62100 [wandb_init.py:init():533] updated telemetry
+2022-02-16 23:41:33,339 INFO    MainThread:62100 [wandb_init.py:init():563] communicating current version
+2022-02-16 23:41:35,218 INFO    MainThread:62100 [wandb_init.py:init():568] got version response upgrade_message: "wandb version 0.12.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-02-16 23:41:35,219 INFO    MainThread:62100 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-02-16 23:41:35,755 INFO    MainThread:62100 [wandb_init.py:init():606] starting run threads in backend
+2022-02-16 23:41:39,973 INFO    MainThread:62100 [wandb_run.py:_console_start():1810] atexit reg
+2022-02-16 23:41:39,974 INFO    MainThread:62100 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.REDIRECT
+2022-02-16 23:41:39,975 INFO    MainThread:62100 [wandb_run.py:_redirect():1689] Redirecting console.
+2022-02-16 23:41:39,977 INFO    MainThread:62100 [wandb_run.py:_redirect():1745] Redirects installed.
+2022-02-16 23:41:39,977 INFO    MainThread:62100 [wandb_init.py:init():633] run started, returning control to user process
+2022-02-16 23:41:57,660 INFO    MainThread:62100 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 0
+2022-02-16 23:41:57,660 INFO    MainThread:62100 [wandb_run.py:_restore():1752] restore
+2022-02-16 23:42:00,021 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 176396
+}
+
+2022-02-16 23:42:00,634 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 176396
+}
+
+2022-02-16 23:42:00,785 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179204
+}
+
+2022-02-16 23:42:00,888 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:00,994 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:01,100 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:01,205 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:01,312 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:01,417 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:01,521 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:01,625 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:01,728 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:01,834 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:01,939 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,046 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,152 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,256 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,361 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,464 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,569 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,677 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 176396
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,779 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 179521
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,881 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 179521
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:02,987 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 179521
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:03,089 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 179521
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:03,205 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 179521
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:03,309 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 179521
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:03,699 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 179521
+  total_bytes: 179521
+}
+
+2022-02-16 23:42:04,315 INFO    MainThread:62100 [wandb_run.py:_wait_for_finish():1912] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 179521
+  total_bytes: 179521
+}
+local_info {
+}
+
+2022-02-16 23:42:05,566 INFO    MainThread:62100 [wandb_run.py:_append_files():2180] logging synced files

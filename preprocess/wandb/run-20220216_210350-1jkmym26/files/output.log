@@ -1,0 +1,13 @@
+
+16-02-2022 21:03:52 Downloading artifact
+16-02-2022 21:03:54 Dropping ClienteNo
+16-02-2022 21:03:54 Correct NivelGerencial
+16-02-2022 21:03:54 Binarize PrimeiraCompra
+Traceback (most recent call last):
+  File "/home/lufec/Downloads/mlops/dostoy/preprocess/run.py", line 105, in <module>
+    process_args(ARGS)
+  File "/home/lufec/Downloads/mlops/dostoy/preprocess/run.py", line 50, in process_args
+    df.loc[int(df.PrimeiraCompra) < 42, "PrimeiraCompra"] = 0
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>

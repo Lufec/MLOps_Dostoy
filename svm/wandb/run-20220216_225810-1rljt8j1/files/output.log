@@ -1,0 +1,62 @@
+16-02-2022 22:58:16 Downloading and reading train artifact
+16-02-2022 22:58:18 Spliting data into train/val
+16-02-2022 22:58:18 x train: (1391, 14)
+16-02-2022 22:58:18 y train: (1391,)
+16-02-2022 22:58:18 x val: (597, 14)
+16-02-2022 22:58:18 y val: (597,)
+16-02-2022 22:58:18 Removal Outliers
+16-02-2022 22:58:18 x_train shape [original]: (1391, 14)
+16-02-2022 22:58:18 x_train shape [outlier removal]: (1391, 14)
+16-02-2022 22:58:18 Encoding Target Variable
+16-02-2022 22:58:18 Classes [0, 1]: [0. 1.]
+16-02-2022 22:58:18 Pipeline generation
+16-02-2022 22:58:18 Training
+Traceback (most recent call last):
+  File "run.py", line 396, in <module>
+    process_args(ARGS)
+  File "run.py", line 257, in process_args
+    pipe.fit(x_train, y_train)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 341, in fit
+    Xt = self._fit(X, y, **fit_params_steps)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 303, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/memory.py", line 352, in __call__
+    return self.func(*args, **kwargs)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 754, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **fit_params)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 980, in fit_transform
+    results = self._parallel_func(X, y, fit_params, _fit_transform_one)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 1002, in _parallel_func
+    return Parallel(n_jobs=self.n_jobs)(delayed(func)(
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 754, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **fit_params)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 387, in fit_transform
+    return last_step.fit_transform(Xt, y, **fit_params_last_step)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/base.py", line 702, in fit_transform
+    return self.fit(X, y, **fit_params).transform(X)
+  File "run.py", line 91, in transform
+    hashed_features = fh2.fit_transform(x_cat['Ocupacao'])
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/base.py", line 699, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/feature_extraction/_hash.py", line 159, in transform
+    _hashing_transform(raw_X, self.n_features, self.dtype,
+  File "sklearn/feature_extraction/_hashing_fast.pyx", line 50, in sklearn.feature_extraction._hashing_fast.transform
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/feature_extraction/_hash.py", line 157, in <genexpr>
+    raw_X = (((f, 1) for f in x) for x in raw_X)
+TypeError: 'NAType' object is not iterable

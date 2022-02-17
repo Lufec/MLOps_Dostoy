@@ -1,0 +1,8 @@
+
+17-02-2022 00:06:52 Downloading and reading test artifact
+17-02-2022 00:06:54 Extracting target from dataframe
+17-02-2022 00:06:54 Encoding Target Variable
+17-02-2022 00:06:54 Classes [0, 1]: [0. 1.]
+17-02-2022 00:06:54 Downloading and reading the exported model
+17-02-2022 00:06:57 Evaluation metrics
+17-02-2022 00:06:58 Uploading figures

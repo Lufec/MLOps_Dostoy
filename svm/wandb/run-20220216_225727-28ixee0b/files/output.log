@@ -1,0 +1,21 @@
+
+16-02-2022 22:57:33 Downloading and reading train artifact
+16-02-2022 22:57:35 Spliting data into train/val
+16-02-2022 22:57:35 x train: (1391, 14)
+16-02-2022 22:57:35 y train: (1391,)
+16-02-2022 22:57:35 x val: (597, 14)
+16-02-2022 22:57:35 y val: (597,)
+16-02-2022 22:57:35 Removal Outliers
+16-02-2022 22:57:35 x_train shape [original]: (1391, 14)
+16-02-2022 22:57:35 x_train shape [outlier removal]: (1391, 14)
+16-02-2022 22:57:35 Encoding Target Variable
+16-02-2022 22:57:35 Classes [0, 1]: [0. 1.]
+16-02-2022 22:57:35 Pipeline generation
+Traceback (most recent call last):
+  File "run.py", line 396, in <module>
+    process_args(ARGS)
+  File "run.py", line 251, in process_args
+    ("classifier", SVC(**model_config["svm"]))
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'c'

@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.11.0-27-generic-x86_64-with-glibc2.31",
+    "python": "3.10.2",
+    "heartbeatAt": "2022-02-17T01:35:46.502560",
+    "startedAt": "2022-02-17T01:35:45.254507",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "PrimeiraCompra"
+    ],
+    "state": "running",
+    "program": "/home/lufec/Downloads/mlops/dostoy/segregate/run.py",
+    "codePath": "run.py",
+    "host": "lufec-Lenovo-ideapad-330-15IKB",
+    "username": "lufec",
+    "executable": "/home/lufec/anaconda3/envs/mlflow-75445c30a631c6b83f0505e6743a24083e38a0a5/bin/python"
+}

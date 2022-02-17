@@ -1,0 +1,15 @@
+svm:
+  c: 5.0
+  kernel: sigmoid
+  gamma: auto
+  degree: 3
+  coef0: 4
+  tol: 0.01
+  shrinking: true
+  probability: false
+  cache_size: 2048
+  verbose: false
+  max_iter: -1
+numerical_pipe:
+  model: 0
+export_artifact: model_export

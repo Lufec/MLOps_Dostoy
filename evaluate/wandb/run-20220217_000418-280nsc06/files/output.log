@@ -1,0 +1,42 @@
+
+17-02-2022 00:04:27 Downloading and reading test artifact
+17-02-2022 00:04:29 Extracting target from dataframe
+17-02-2022 00:04:29 Encoding Target Variable
+17-02-2022 00:04:29 Classes [0, 1]: [0. 1.]
+17-02-2022 00:04:29 Downloading and reading the exported model
+Traceback (most recent call last):
+  File "run.py", line 112, in <module>
+    process_args(ARGS)
+  File "run.py", line 58, in process_args
+    predict = pipe.predict(x_test)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/utils/metaestimators.py", line 120, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 418, in predict
+    Xt = transform.transform(Xt)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 1024, in transform
+    Xs = Parallel(n_jobs=self.n_jobs)(
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/home/lufec/.local/lib/python3.8/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 733, in _transform_one
+    res = transformer.transform(X)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 560, in _transform
+    Xt = transform.transform(Xt)
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/preprocessing/_encoders.py", line 461, in transform
+    X_int, X_mask = self._transform(X, handle_unknown=self.handle_unknown,
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/preprocessing/_encoders.py", line 136, in _transform
+    raise ValueError(msg)
+ValueError: Found unknown categories [1] in column 0 during transform

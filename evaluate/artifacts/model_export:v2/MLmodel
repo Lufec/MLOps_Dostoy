@@ -1,0 +1,25 @@
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.12
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.1
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "Cidade", "type": "long"}, {"name": "Idade", "type": "long"},
+    {"name": "Sexo", "type": "long"}, {"name": "EstadoCivil", "type": "long"}, {"name":
+    "NumeroFilhos", "type": "long"}, {"name": "Escolaridade", "type": "long"}, {"name":
+    "Ocupacao", "type": "long"}, {"name": "AreaAtuacao", "type": "long"}, {"name":
+    "NivelGerencial", "type": "long"}, {"name": "TipoResidencia", "type": "long"},
+    {"name": "CondicaoResidencia", "type": "long"}, {"name": "ValorImovel", "type":
+    "long"}, {"name": "NoAutomoveis", "type": "long"}, {"name": "Computador", "type":
+    "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2022-02-17 03:03:51.849226'

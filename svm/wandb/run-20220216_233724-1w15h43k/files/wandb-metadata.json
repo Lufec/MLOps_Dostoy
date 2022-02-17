@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.11.0-27-generic-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-02-17T02:37:31.544046",
+    "startedAt": "2022-02-17T02:37:24.183700",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "train_data.csv:latest",
+        "--model_config",
+        "/home/lufec/Downloads/mlops/dostoy/outputs/2022-02-16/23-37-18/svm_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "PrimeiraCompra"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "run.py",
+    "host": "lufec-Lenovo-ideapad-330-15IKB",
+    "username": "lufec",
+    "executable": "/home/lufec/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/bin/python"
+}

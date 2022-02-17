@@ -1,0 +1,40 @@
+main:
+  project_name: dostoy_selling
+  experiment_name: dev
+  execute_steps:
+    - download
+    - preprocess
+    - check_data
+    - segregate
+    - svm
+    - evaluate
+  # This seed will be used to seed the random number generator
+  # to ensure repeatibility of the data splits and other
+  # pseudo-random operations
+  random_seed: 123
+data:
+  file_url: "https://raw.githubusercontent.com/Lufec/Caso_Dostoy/main/Dolstoy_Profile.csv"
+  reference_dataset: "dostoy_selling/preprocessed_data.csv:latest"
+  # Threshold for Kolomorov-Smirnov test
+  ks_alpha: 0.05
+  test_size: 0.3
+  val_size: 0.3
+  # Stratify according to the target when splitting the data
+  # in train/test or in train/val
+  stratify: PrimeiraCompra
+svm_pipeline:
+  svm:
+    C: 5.0
+    kernel: "sigmoid"
+    gamma: "auto"
+    degree: 3
+    coef0: 4
+    tol: 0.01
+    shrinking: True
+    probability: False
+    cache_size: 2048
+    verbose: False
+    max_iter: -1
+  numerical_pipe:
+    model: 0
+  export_artifact: "model_export"

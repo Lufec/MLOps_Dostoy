@@ -1,0 +1,24 @@
+
+16-02-2022 23:06:51 Downloading and reading train artifact
+16-02-2022 23:06:53 Spliting data into train/val
+16-02-2022 23:06:53 x train: (1391, 14)
+16-02-2022 23:06:53 y train: (1391,)
+16-02-2022 23:06:53 x val: (597, 14)
+16-02-2022 23:06:53 y val: (597,)
+16-02-2022 23:06:53 Removal Outliers
+16-02-2022 23:06:53 x_train shape [original]: (1391, 14)
+16-02-2022 23:06:53 x_train shape [outlier removal]: (1391, 14)
+16-02-2022 23:06:53 Encoding Target Variable
+16-02-2022 23:06:53 Classes [0, 1]: [0. 1.]
+16-02-2022 23:06:53 Pipeline generation
+16-02-2022 23:06:53 Training
+16-02-2022 23:06:54 Infering
+16-02-2022 23:06:54 Evaluation metrics
+Traceback (most recent call last):
+  File "run.py", line 347, in <module>
+    process_args(ARGS)
+  File "run.py", line 240, in process_args
+    features_cat = features_cat[3].get_feature_names_out().tolist()
+  File "/home/lufec/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 220, in __getitem__
+    name, est = self.steps[ind]
+IndexError: list index out of range

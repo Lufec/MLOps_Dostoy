@@ -1,0 +1,22 @@
+
+16-02-2022 21:00:35 Downloading artifact
+16-02-2022 21:00:37 Dropping ClienteNo
+16-02-2022 21:00:37 Correct NivelGerencial
+16-02-2022 21:00:37 Binarize PrimeiraCompra
+Traceback (most recent call last):
+  File "/home/lufec/Downloads/mlops/dostoy/preprocess/run.py", line 105, in <module>
+    process_args(ARGS)
+  File "/home/lufec/Downloads/mlops/dostoy/preprocess/run.py", line 50, in process_args
+    df.loc[df.PrimeiraCompra < 42, "PrimeiraCompra"] = 0
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/core/ops/common.py", line 69, in new_method
+    return method(self, other)
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/core/arraylike.py", line 40, in __lt__
+    return self._cmp_method(other, operator.lt)
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/core/series.py", line 5502, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/core/ops/array_ops.py", line 284, in comparison_op
+    res_values = comp_method_OBJECT_ARRAY(op, lvalues, rvalues)
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/core/ops/array_ops.py", line 73, in comp_method_OBJECT_ARRAY
+    result = libops.scalar_compare(x.ravel(), y, op)
+  File "pandas/_libs/ops.pyx", line 107, in pandas._libs.ops.scalar_compare
+TypeError: '<' not supported between instances of 'str' and 'int'

@@ -1,0 +1,25 @@
+{
+    "os": "Linux-5.11.0-27-generic-x86_64-with-glibc2.31",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-02-17T02:40:52.562515",
+    "startedAt": "2022-02-17T02:40:49.062334",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        ".",
+        "-s",
+        "-vv",
+        "--reference_artifact",
+        "dostoy_selling/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/bin/pytest",
+    "host": "lufec-Lenovo-ideapad-330-15IKB",
+    "username": "lufec",
+    "executable": "/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/bin/python"
+}

@@ -1,0 +1,26 @@
+
+16-02-2022 21:08:09 Downloading artifact
+Traceback (most recent call last):
+  File "pandas/_libs/parsers.pyx", line 1095, in pandas._libs.parsers.TextReader._convert_tokens
+TypeError: Cannot cast array data from dtype('O') to dtype('float64') according to the rule 'safe'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/lufec/Downloads/mlops/dostoy/preprocess/run.py", line 106, in <module>
+    process_args(ARGS)
+  File "/home/lufec/Downloads/mlops/dostoy/preprocess/run.py", line 39, in process_args
+    df = pd.read_csv(artifact_path,
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 488, in _read
+    return parser.read(nrows)
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1047, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/home/lufec/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/lib/python3.10/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 224, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 801, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 880, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1026, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1101, in pandas._libs.parsers.TextReader._convert_tokens
+ValueError: could not convert string to float: '58,36'
