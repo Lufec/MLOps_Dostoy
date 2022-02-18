@@ -49,7 +49,8 @@ Por fim, para realizar o deploy e fazer inferências online, é necessario chama
 wandb artifact get Dostoy_Case/model_export:latest --root model
 ```
 
-Para criar uma REST API para realizar requests ao endpoint gerado;
+2) Para criar uma REST API para realizar requests ao endpoint gerado;
+
 ```
 mlflow models serve -m model
 ```
@@ -57,6 +58,6 @@ mlflow models serve -m model
 Executar um script que realize esse request, por exemplo o contido no notebook "Online Reference"
 
 
-Essa estrutura possuiu como base os códigos gerados por Ivanovitch Silva, disponível em:
+Essa estrutura e as imagens das ferramentas utilizadas e estrututra possuiu como base o repositório gerado por Ivanovitch Silva, disponível em:
 
 https://github.com/ivanovitchm/mlops
