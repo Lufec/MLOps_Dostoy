@@ -41,7 +41,7 @@ Caso desejado, é possível executar apenas certos módulos por comando, por exe
 mlflow run . -P hydra_options="main.execute_steps='download_data'"
 ```
 
-Sobre a problemática, ela consiste em um exercício de classificação rpesente no seguinte repositório : https://github.com/Lufec/Caso_Dostoy
+Sobre a problemática, ela consiste em um exercício de classificação presente no seguinte repositório : https://github.com/Lufec/Caso_Dostoy
 
 O objetivo é, a partir do perfil das pessoas que a empresa Dostoy coletou, identificar para quais ela deve enviar catálogos de produto tal que ela possua Lucro (classe 1) ou evitar envio de catálogos em caso de Prejuízo (classe 0), uma vez que o envio de catálogos possui um preço fixo.
 
