@@ -2,6 +2,10 @@
 
 Esse repositório contém os códigos necessários para construir um modelo de classificação usando SVM, sua análise e seu deploy.
 
+Uma explicação mais detalhada pode ser lida no seguinte artigo públicado no Medium:
+
+https://medium.com/@lufecf/aplicando-mlops-para-problemas-de-classifica%C3%A7%C3%A3o-d46b2e6a5449
+
 Ferramentas necessárias:
 
 ![image](https://user-images.githubusercontent.com/30414428/154772095-11469e69-c83c-4061-ba47-7cd2dec1c84e.png)
