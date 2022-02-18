@@ -22,4 +22,4 @@ signature:
     "long"}, {"name": "NoAutomoveis", "type": "long"}, {"name": "Computador", "type":
     "long"}]'
   outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
-utc_time_created: '2022-02-17 03:47:35.225357'
+utc_time_created: '2022-02-18 18:14:06.832467'

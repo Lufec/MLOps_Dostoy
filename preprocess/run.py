@@ -46,7 +46,7 @@ def process_args(args):
     
     df['PrimeiraCompra'] = pd.to_numeric(df['PrimeiraCompra'])
     
-    logger.info("Bynarize PrimeiraCompra")
+    logger.info("Binarize PrimeiraCompra")
     
     df.loc[df.PrimeiraCompra < 42, "PrimeiraCompra"] = 0
     df.loc[df.PrimeiraCompra >= 42, "PrimeiraCompra"] = 1
