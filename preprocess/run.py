@@ -1,9 +1,3 @@
-"""
-Creator: Ivanovitch Silva
-Date: 29 Jan. 2022
-After download the raw data we need to preprocessing it.
-At the end of this stage we have been created a new artfiact (clean_data).
-"""
 import argparse
 import logging
 import os

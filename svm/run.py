@@ -1,9 +1,3 @@
-"""
-Creator: Ivanovitch Silva
-Date: 30 Jan. 2022
-Implement a machine pipeline component that
-incorporate preprocessing and train stages.
-"""
 import argparse
 import logging
 import os

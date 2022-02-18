@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.11.0-27-generic-x86_64-with-glibc2.31",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-02-17T03:45:07.979893",
+    "startedAt": "2022-02-17T03:45:04.899464",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        ".",
+        "-s",
+        "-vv",
+        "--reference_artifact",
+        "dostoy_selling/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/bin/pytest",
+    "git": {
+        "remote": "https://github.com/Lufec/MLOps_Dostoy.git",
+        "commit": "597a76b2de83f75f47ff32d0446baa83f18076f2"
+    },
+    "email": "lu_fe_c@hotmail.com",
+    "root": "/home/lufec/Downloads/mlops/MLOps_Dostoy",
+    "host": "lufec-Lenovo-ideapad-330-15IKB",
+    "username": "lufec",
+    "executable": "/home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/bin/python"
+}

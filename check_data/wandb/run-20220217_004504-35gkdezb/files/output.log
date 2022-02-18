@@ -1,0 +1,10 @@
+[1m================================================================================ test session starts =================================================================================
+platform linux -- Python 3.9.10, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- /home/lufec/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/bin/python
+cachedir: .pytest_cache
+rootdir: /home/lufec/Downloads/mlops/MLOps_Dostoy/check_data
+[1mcollected 4 items                                                                                                                                                                    
+test_data.py::test_kolmogorov_smirnov <- ../../dostoy/check_data/test_data.py [32mPASSED
+test_data.py::test_column_presence_and_type <- ../../dostoy/check_data/test_data.py [32mPASSED
+test_data.py::test_class_names <- ../../dostoy/check_data/test_data.py [32mPASSED
+test_data.py::test_column_ranges <- ../../dostoy/check_data/test_data.py [32mPASSED
+[32m================================================================================= [1m4 passed[22m in 11.93s =================================================================================

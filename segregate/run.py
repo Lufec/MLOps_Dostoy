@@ -1,8 +1,3 @@
-"""
-Creator: Ivanovitch Silva
-Date: 30 Jan. 2022
-Split preprocessed data into train and test.
-"""
 import argparse
 import logging
 import os

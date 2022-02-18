@@ -1,9 +1,3 @@
-"""
-Creator: Ivanovitch Silva
-Date: 30 Jan. 2022
-Test the inference artifact using test dataset.
-"""
-
 import argparse
 import logging
 import pandas as pd
