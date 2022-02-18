@@ -5,10 +5,13 @@ Esse repositório contém os códigos necessários para construir um modelo de c
 Ferramentas necessárias:
 
 ![image](https://user-images.githubusercontent.com/30414428/154772095-11469e69-c83c-4061-ba47-7cd2dec1c84e.png)
+Fonte: Ivanovitch Silva
+
 
 Estrutura:
 
 ![image](https://user-images.githubusercontent.com/30414428/154772118-af191353-a76c-4188-af2a-26c10982b490.png)
+Fonte: Ivanovitch Silva
 
 O código consiste no uso de módulos, sendo eles:
 
@@ -58,6 +61,6 @@ mlflow models serve -m model
 Executar um script que realize esse request, por exemplo o contido no notebook "Online Reference"
 
 
-Essa estrutura e as imagens das ferramentas utilizadas e estrututra possuiu como base o repositório gerado por Ivanovitch Silva, disponível em:
+Essa estrutura possuiu como base o repositório gerado por Ivanovitch Silva, disponível em:
 
 https://github.com/ivanovitchm/mlops
